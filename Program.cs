@@ -7,7 +7,7 @@ namespace Checksum
     {
         public static void Main(string[] args)
         {
-            string fileName = "checksum - input.txt";
+            string fileName = "../../../checksum - input.txt";
             string cijferReeks =File.ReadAllText(fileName);
 
             //cijferReeks = "91212129";
